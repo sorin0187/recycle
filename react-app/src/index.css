@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.paid {
+  background-color: cyan;
+}
+
+.unpaid {
+  background-color: pink;
+}
+
+.recycling-object {
+  display: table-row;
+}
+
+.recycling-object-icon-container {
+  width: 30px;
+  display: table-cell;
+}
+
+.recycling-object-price-container {
+  display: table-cell;
+}
+
+.recycling-object-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.recycling-object-price {
+  font-size: 20px;
+}
