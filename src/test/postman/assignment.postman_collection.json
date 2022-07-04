@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "recycle",
+			"name": "bottle",
 			"item": [
 				{
 					"name": "recycle bottle",
@@ -14,14 +14,13 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/recycle/bottle",
+							"raw": "http://localhost:8080/bottle",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"recycle",
 								"bottle"
 							]
 						}
@@ -34,55 +33,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/recycle/bottle",
+							"raw": "http://localhost:8080/bottle",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"recycle",
 								"bottle"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "recycle can",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/recycle/can",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"recycle",
-								"can"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "get cans",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/recycle/can",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"recycle",
-								"can"
 							]
 						}
 					},
@@ -126,6 +84,49 @@
 							"port": "8080",
 							"path": [
 								"voucher"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "can",
+			"item": [
+				{
+					"name": "recycle can",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/can",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"can"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get cans",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/can",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"can"
 							]
 						}
 					},
