@@ -23,3 +23,13 @@ services:
       - QUARKUS_DATASOURCE_JDBC_URL=jdbc:postgresql://db:5432/recycle
     ports:
       - "8080:8080"
+
+  ui:
+    image: ui
+    depends_on:
+      - webapp
+    build:
+      context: react-app
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3000:3000"
